@@ -1,0 +1,36 @@
+
+@media screen and (max-width:980px){
+     .usuario {
+        margin-left:-70%;
+        
+    }
+    .bot{
+        margin-left:10%;
+        
+    }
+    h2{
+        margin-left:6%;
+        
+    }
+    .formulario{
+        margin-left: 10%;
+    }
+    .liben{
+        margin-left: -10%;
+        
+    }
+    .cr{
+        margin-left: -25%;
+
+    }
+    .solli{
+        margin-left: -5%;
+        min-width: -100%;
+    }
+    
+    
+   
+   
+}
+
+

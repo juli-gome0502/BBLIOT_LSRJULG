@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/solicitud.css">
+    <link rel="stylesheet" href="../css/cop.css">
+</head>
+<body>
+    <header>
+        <h1>BIBLIOTECA</h1>
+        <h1>LECTURA SIN RUMBO</h1>
+        <nav id='menu'>
+          <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+          <ul>
+            <li><a href='../arch1/ing.html'>Inicio</a></li>
+            <li><a class='dropdown-arrow' href='solibro.html'>Solicitud</a>
+              <ul class='sub-menus'>
+                <li><a href='../solicitud/solibro.html'>Solicitar Libro</a></li>
+              </ul>
+            </li>
+            <li><a class='dropdown-arrow' href='solibro.html'>Innovar</a>
+              <ul class='sub-menus'>
+                <li><a href='../innovar/inov.html'>Crear Libro</a></li>
+              </ul>
+            </li>
+            <li><a class='dropdown-arrow' href='solibro.html'>Envio</a>
+              <ul class='sub-menus'>
+                <li><a href='../envio/envio.html'>Entrega de Libros</a></li>
+              </ul>
+            </li>
+            <li><a href='../registro/regis.html'>Registrarse</a></li>
+            <li><a href='../index.html'>Ingresar</a></li>
+          </ul>
+        </nav>
+        <div class="log"><img src="../img/librolo-removebg-preview.png" alt="" width="200px" height="200px"></div>
+    </header>
+    <div class="sol">
+      <h1>Solicitar libro(s)</h1>
+      <div class="solli">
+        <form>
+          <table class="elecc">
+            <tr>
+              <td>
+                <label for="">Buscar libro por:</label>
+              </td>
+              <td><input type="radio">Titulo</td>
+              <td><input type="radio">Autor</td>
+              <td><input type="radio">Área</td>
+              <td><input type="text" name="" id=""> </td>
+              
+            </tr>
+          </table>
+          <div class="tas">
+            
+              
+              <form>
+                <table>
+                  <table class="tt">
+                    <tr>
+                      <td><label for="">Titulo</label></td>
+                    </tr>
+                    <tr><td><label for="">Bases de datos NoSQL</label></td></tr>
+                    <tr><td><label for="">Gestión de bases de datos</label></td></tr>
+                    <tr><td><label for="">Guía práctica de bases de datos</label></td></tr>
+                    <tr><td><label for="">Modelado de bases de datos</label></td></tr>
+      
+                  </table>
+                  <table class="ll">
+                    <tr>
+                      <td><label for="">Editorial</label></td>
+                    </tr>
+                    <tr><td><label for="">Mc Graw Hill</label></td></tr>
+                    <tr><td><label for="">Heroes</label></td></tr>
+                    <tr><td><label for="">Principe</label></td></tr>
+                    <tr><td><label for="">Luciernaga</label></td></tr>
+                   
+                  </table>
+                  <table class="ii">
+                    <tr>
+                      <td><label for="">ISBN</label></td>
+                    </tr>
+                    <tr><td><label for="">2-445-56-4-342</label></td></tr>
+                    <tr><td><label for="">4-86-2-6-444</label></td></tr>
+                    <tr><td><label for="">2-675-25-86-2</label></td></tr>
+                    <tr><td><label for="">5-345-897-6</label></td></tr>
+                    
+                  </table>
+                  <table class="lilt">
+                    <tr>
+                      <td><label for="">Autor(es)</label></td>
+                    </tr>
+                    <tr><td><label for="">Luis Estupiñan</label></td></tr>
+                    
+                    <tr><td><label for="">Laura Lopez</label></td></tr>
+                    <tr><td><label for="">Maria Zuñiga</label></td></tr>
+                    <tr><td><label for="">Lucia Lucca</label></td></tr>
+                    <tr><td><label for="">Pappilla Rusberly</label></td></tr>
+                    <tr><td><label for="">Laura Lopez</label></td></tr>
+                    
+                    
+                  </table>
+                  <table class="cc">
+                    <tr><td><label for="">Núm. Páginas</label></td></tr>
+                    <tr><td><label for="">189</label></td></tr>
+                    <tr><td><label for="">345</label></td></tr>
+                    <tr><td><label for="">56</label></td></tr>
+                    <tr><td><label for="">345</label></td></tr>
+                  </table>
+                  <table class="ejem">
+                    <tr><td><label for="">Núm. Ejemplares</label></td></tr>
+                    <tr><td><label for="">3</label></td></tr>
+                    <tr><td><label for="">2</label></td></tr>
+                    <tr><td><label for="">1</label></td></tr>
+                    <tr><td><label for="">4</label></td></tr>
+                  </table>
+                  <table class="disp">
+                    <tr><td><label for="">Disponible</label></td></tr>
+                    <tr><td><label for="">Si</label></td></tr>
+                    <tr><td><label for="">No</label></td></tr>
+                    <tr><td><label for="">Si</label></td></tr>
+                    <tr><td><label for="">Si</label></td></tr>
+                  </table>
+                  <table class="para">
+                    <tr><td><label for="">Disponible para:</label></td></tr>
+                    <tr><td><label for="">Sala</label></td></tr>
+                    <tr><td><label for="">Casa</label></td></tr>
+                    <tr><td><label for="">Sala</label></td></tr>
+                    <tr><td><label for="">Sala</label></td></tr>
+                  </table>
+                </table>
+              </form>          
+          </div>
+        </form>
+        <form action="">
+          <table class="liks">
+            <tr><td><label for="">Acciones</label></td>
+              
+            </tr>
+            <tr>
+              <td><a class="tt" href="solibro.html">Ver contenido</a></td>
+              <td><a href="solibro.html">Solicitar</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Ver contenido</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Ver contenido</a></td>
+              <td><a href="solibro.html">Solicitar</a></td>
+            </tr>
+            <tr>
+              <td><a href="">Ver contenido</a></td>
+              <td><a href="solibro.html">Solicitar</a></td>
+            </tr>
+          </table>
+        </form>
+        <div class="per">
+          <form>
+            <tr>
+              <td><h3>Juliana Gomez</h3></td>
+              <td>
+                <select name="" id="">
+                   
+                   <option value="">Salir</option>
+                </select>
+              </td>
+            </tr> 
+          </form>
+        </div>
+      </div>
+      </div>
+    <div class="redes">
+      <div class="fb">
+         <a href="https://www.facebook.com/" target="_blank"><img src="../img/facebook.png" alt="" width="30px" height="30px" ></a> 
+      </div>
+      <div class="tw">
+          <a href="https://www.twitter.com/" target="_blank"><img src="../img/gorjeo.png" alt="" width="30px" height="30px"></a>
+      </div>
+      <div class="ig">
+          <a href="https://www.instagram.com/" target="_blank"><img src="../img/instagram.png" alt="" width="30px" height="30px"></a>
+      </div>
+    </div>
+    <footer>
+      <div class="face">
+        <img src="../img/facebook.png" alt="" width="30px" height="30px">
+        <div class="fa"><h3>LSR Biblioteca</h3></div>
+      </div>
+      <div class="ins">
+        <img src="../img/instagram.png" alt="" width="30px" height="30px">
+        <div class="in"><h3>@LSR_bibliotec</h3></div>
+      </div>
+      <div class="twt">
+        <img src="../img/gorjeo.png" alt="" width="30px" height="30px">
+        <div class="twr"><h3>@LSR_bibliot</h3></div>
+      </div>
+      <div class="wht">
+        <img src="../img/whatsapp.png" alt="" width="30px" height="30px">
+        <div class="wt"><h3>3125679875</h3></div>
+      </div>
+      <div class="tikt">
+        <img src="../img/tik-tok.png" alt="" width="30px" height="30px">
+        <div class="tik"><h3>@libraryLSR</h3></div>
+      </div>
+    </footer>
+    
+</body>
+</html>
